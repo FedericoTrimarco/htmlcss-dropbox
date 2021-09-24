@@ -34,8 +34,13 @@
 .lightblue-container{
     background-color: #b4d0e7;
 }
-.contained{
-    width: 80%;
+.contained70{
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+}
+.contained60{
+    width: 60%;
     margin: auto;
     border: 1px solid red;
 }
@@ -61,8 +66,16 @@ header .nav-menu ul img{
    padding-left: 30px;
 }
 /* 1°SECTION */
-.lightblue-container .contained h1{
-    font-size: 120px;
+.lightblue-container .contained70 h1{
+    font-size: 100px;
+}
+.section-bottom{
+    padding-top: 30px;
+    border: 1px solid purple;
+}
+.lightblue-container .contained70{
+    position: relative;
+    top: 100px;
 }
 .lightblue-container .text-section{
     width: 30%;
@@ -72,4 +85,16 @@ header .nav-menu ul img{
 .lightblue-container .img-section{
     width: 70%;
     border: 1px solid green;
+}
+.lightblue-container .img-section img{
+    width: 100%;
+}
+.button-section-one{
+    padding: 30px 0;
+}
+.button-section-one p{
+    line-height: 50px;
+}
+.section-bottom i{
+    font-size: 50px;
 }
