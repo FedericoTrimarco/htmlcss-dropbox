@@ -37,18 +37,18 @@
 .contained70{
     width: 70%;
     margin: auto;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 .contained60{
     width: 60%;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid black; */
 }
 /*  */
 
 /* HEADER */
 header{
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 .list-container{
     width: 50%;
@@ -97,4 +97,22 @@ header .nav-menu ul img{
 }
 .section-bottom i{
     font-size: 50px;
+}
+/* 2°SECTION */
+.second-section .contained60{
+    margin-top: 200px;
+}
+.columns{
+    border: 1px solid blue;
+}
+.col{
+    height: 100%;
+    float: left;
+    width: calc(100% / 3);
+}
+.col:nth-child(2){
+    padding: 0 40px;
+}
+.col-content{
+  background: grey;
 }
