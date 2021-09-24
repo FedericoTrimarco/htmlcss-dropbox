@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 /* UTILITIES */
 /* FLOAT */
@@ -17,23 +18,38 @@
 .float-l{
     float: left;
 }
-.text-cent{
-    text-align: center;
+/* BUTTONS */
+.btn{
+    border: none;
+    padding: 8px 16px
+}
+.btn-blue{
+    background-color: #0d69ff;
+    color: #fff;
+}
+.btn-big{
+    padding: 8px 30px;
+}
+/* CONTAINER */
+.lightblue-container{
+    background-color: #b4d0e7;
 }
 /*  */
-/* header{
-    background-color: coral;
-    vertical-align: middle;
-} */
-.uno, .due{
+
+/* HEADER */
+
+.list-container{
     width: 50%;
     display: inline-block;
-    border: 1px solid coral;
 }
-ul{
-    border: 1px solid black;
+header .nav-menu ul{
+    padding-right: 30px;
 }
-li{
+header .nav-menu li{
     display: inline-block;
-    padding: 25px;
+    padding: 30px;
+}
+header .nav-menu ul img{
+   vertical-align: sub;
+   padding-left: 30px;
 }
