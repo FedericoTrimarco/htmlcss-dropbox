@@ -21,13 +21,14 @@
     text-align: center;
 }
 /*  */
-header{
+/* header{
     background-color: coral;
     vertical-align: middle;
-}
+} */
 .uno, .due{
     width: 50%;
     display: inline-block;
+    border: 1px solid coral;
 }
 ul{
     border: 1px solid black;
