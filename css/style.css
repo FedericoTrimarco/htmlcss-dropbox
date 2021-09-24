@@ -4,3 +4,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* UTILITIES */
+/* FLOAT */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.float-r{
+    float: right;
+}
+.float-l{
+    float: left;
+}
+.text-cent{
+    text-align: center;
+}
+/*  */
+header{
+    background-color: coral;
+    vertical-align: middle;
+}
+.uno, .due{
+    width: 50%;
+    display: inline-block;
+}
+ul{
+    border: 1px solid black;
+}
+li{
+    display: inline-block;
+    padding: 25px;
+}
