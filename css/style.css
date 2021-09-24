@@ -6,6 +6,24 @@
     font-family: 'Open Sans', sans-serif;
 }
 /* UTILITIES */
+/* BORDER */
+.bord-blk{
+    border: 1px solid black;
+}
+/* ICON */
+.icon-cent{
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid black;
+}
+/* PADDING */
+.pd-bottom70{
+    padding-bottom: 70px;
+}
+/* MARGIN */
+.mg-left20{
+    margin-left: 20px;
+}
 /* FLOAT */
 .clearfix::after{
     content: '';
@@ -28,7 +46,7 @@
     color: #fff;
 }
 .btn-big{
-    padding: 8px 30px;
+    padding: 8px 60px;
 }
 /* CONTAINER */
 .lightblue-container{
@@ -42,14 +60,13 @@
 .contained60{
     width: 60%;
     margin: auto;
-    /* border: 1px solid black; */
 }
 /*  */
 
 /* HEADER */
-header{
-    /* border-bottom: 1px solid black; */
-}
+/* header{
+    da usare position: fixed
+} */
 .list-container{
     width: 50%;
     display: inline-block;
@@ -69,22 +86,16 @@ header .nav-menu ul img{
 .lightblue-container .contained70 h1{
     font-size: 100px;
 }
-.section-bottom{
-    padding-top: 30px;
-    border: 1px solid purple;
-}
 .lightblue-container .contained70{
     position: relative;
     top: 100px;
 }
 .lightblue-container .text-section{
     width: 30%;
-    border: 1px solid green;
     display: inline-block;
 }
 .lightblue-container .img-section{
     width: 70%;
-    border: 1px solid green;
 }
 .lightblue-container .img-section img{
     width: 100%;
@@ -102,17 +113,34 @@ header .nav-menu ul img{
 .second-section .contained60{
     margin-top: 200px;
 }
+.second-section .contained60 > h2{
+    font-size: 50px;
+}
 .columns{
-    border: 1px solid blue;
+    margin: 40px 0;
 }
 .col{
     height: 100%;
     float: left;
     width: calc(100% / 3);
 }
-.col:nth-child(2){
-    padding: 0 40px;
+.col:nth-child(1){
+    padding-right: 60px;
 }
-.col-content{
-  background: grey;
+.col:nth-child(3){
+    padding-left: 60px;
+}
+.footer-columns-text{
+    width: 80%;
+    display:inline-block;
+}
+.footer-columns-text p{
+    line-height: 50px;
+}
+.footer-columns-button{
+    width: 20%;
+    text-align: right;
+}
+.footer-columns-bottom{
+    padding: 30px;
 }
