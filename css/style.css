@@ -34,10 +34,17 @@
 .lightblue-container{
     background-color: #b4d0e7;
 }
+.contained{
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+}
 /*  */
 
 /* HEADER */
-
+header{
+    border-bottom: 1px solid black;
+}
 .list-container{
     width: 50%;
     display: inline-block;
@@ -52,4 +59,17 @@ header .nav-menu li{
 header .nav-menu ul img{
    vertical-align: sub;
    padding-left: 30px;
+}
+/* 1°SECTION */
+.lightblue-container .contained h1{
+    font-size: 120px;
+}
+.lightblue-container .text-section{
+    width: 30%;
+    border: 1px solid green;
+    display: inline-block;
+}
+.lightblue-container .img-section{
+    width: 70%;
+    border: 1px solid green;
 }
