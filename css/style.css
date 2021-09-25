@@ -208,6 +208,10 @@ header .nav-menu ul img{
 .fourth-sec-col-img{
     border: 1px solid green;
 }
+.fourth-sec-col-img img{
+    width: 100%;
+    padding-right: 50px;
+}
 .fourth-sec-col-txt{
     border: 1px solid green;
 }
