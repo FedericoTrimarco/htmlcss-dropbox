@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-.first-section, .second-section, .third-section{
+.first-section, .second-section, .third-section, .fourth-section{
     border: 2px solid red;
 }
 /* UTILITIES */
@@ -205,7 +205,7 @@ header .nav-menu ul img{
     width: calc(100% / 3);
     border: 1px solid blue;
 }
-.fourth-sec-col-img{
+.fourth-sec-col-img, .fourth-sec-col-txt{
     border: 1px solid green;
 }
 .fourth-sec-col-img img{
@@ -213,7 +213,7 @@ header .nav-menu ul img{
     padding-right: 50px;
 }
 .fourth-sec-col-txt{
-    border: 1px solid green;
+    width: 80%;
 }
 
 
