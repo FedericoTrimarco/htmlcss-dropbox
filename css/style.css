@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-.first-section, .second-section, .third-section, .fourth-section, .fifth-section{
+.first-section, .second-section, .third-section, .fourth-section, .fifth-section, .sixth-section{
     border: 2px solid red;
 }
 /* UTILITIES */
@@ -30,6 +30,7 @@
 .pd-bottom20{
     padding-bottom: 20px;
 }
+
 /* MARGIN */
 .mg-left20{
     margin-left: 20px;
@@ -223,8 +224,27 @@ header .nav-menu ul img{
     border: 1px solid green;
     width: 55%;
 }
-
-
+/* 6°SECTION */
+.sixth-sec-col-small{
+    border: 1px solid green;
+    width: 25%;
+}
+.sixth-sec-col-center{
+    border: 1px solid blue;
+    width: 50%;
+    height: 500px;
+    padding: 40px;
+}
+.six-col-small-row{
+    width: 50%;
+    height: 500px;
+    border: 2px solid red;
+}
+.six-small-row-img{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+}
 
 
 
