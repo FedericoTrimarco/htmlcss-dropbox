@@ -66,6 +66,9 @@ html{
     float: left;
 }
 /* BUTTONS */
+button{
+    cursor: pointer;
+}
 .btn{
     border: none;
     padding: 8px 16px
