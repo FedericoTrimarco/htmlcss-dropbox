@@ -27,6 +27,12 @@
 .pd-bottom45{
     padding-bottom: 45px;
 }
+.pd-top200{
+    padding-top: 200px;
+}
+.pd-top120{
+    padding-top: 120px;
+}
 .pd-top45{
     padding-top: 45px;
 }
@@ -100,15 +106,19 @@
     width: 45%;
     margin: auto;
 }
+/* FONT-SIZE */
+.fnt-size45{
+    font-size: 45px;
+}
 /*  */
 
 /* HEADER */
-/* header{
+header{
     position: fixed;
     width: 100%;
     z-index: 1;
     background-color: #fff;
-} */
+}
 .list-container{
     width: 50%;
     display: inline-block;
@@ -144,27 +154,13 @@ header .nav-menu ul img{
 .button-section-one p{
     line-height: 50px;
 }
-.section-bottom i{
+.section-bottom a{
     font-size: 50px;
+    color: #000;
+    cursor: pointer;
 }
-/* 2°SECTION */
-.second-section .contained40,
-.fifth-section .contained40{
-    padding-top: 200px;
-}
-.third-section .contained40,
-.fourth-section .contained40,
-.eighth-section .contained40{
-    padding-top: 120px;
-}
-.second-section .contained40 > h2,
-.fourth-section .contained40 > h2,
-.fifth-section .contained40  h2,
-.seventh-section .contained40 h2,
-.eighth-section .contained40 h2{
-    font-size: 45px;
-}
-.second-section .col ul{
+/* SECOND-SECTION */
+#second-section .col ul{
     margin-left: 25px;
 }
 .fas.fa-check, col-content p a{
