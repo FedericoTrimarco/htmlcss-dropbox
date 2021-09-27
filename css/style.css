@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+/* html{
+    scroll-behavior: smooth;
+} */
 /* UTILITIES */
 /* BORDER */
 .bord-blk{
@@ -302,26 +305,29 @@ header .nav-menu ul img{
 .eighth-section .contained40{
     border-bottom: 1px solid #dcdcde;
 }
-.eight-row-txt{
+.eight-row p{
     width: 90%;
-    border-top: 1px solid #dcdcde;
 }
-.eight-row-icon{
+.eight-row i{
     width: 10%;
-    border-top: 1px solid #dcdcde;
 }
 .eight-row{
-    line-height: 100px;
+    padding: 35px 0;
+    border-top: 1px solid #dcdcde;
 }
+
 /* FOOTER */
-footer ul{
+footer .footer-list-card{
     width: 20%;
     float: left;
-    list-style: none;
 }
 footer li{
     line-height: 30px;
+    list-style-type: none;
 }
 footer hr{
     width: 10%;
+}
+footer li:hover{
+    text-decoration: underline;
 }
