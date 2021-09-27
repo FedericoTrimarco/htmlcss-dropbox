@@ -5,9 +5,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-/* html{
+html{
     scroll-behavior: smooth;
-} */
+}
 /* UTILITIES */
 /* BORDER */
 .bord-blk{
@@ -73,6 +73,10 @@
 .btn-blue{
     background-color: #0d69ff;
     color: #fff;
+    transition: opacity 0.5s;
+}
+.btn-blue:hover{
+    opacity: 0.8;
 }
 .btn-white{
     background-color: #fff;
@@ -187,6 +191,7 @@ header .nav-menu ul img{
 }
 .col-content{
     padding: 20px;
+    min-height: 1100px;
 }
 .col-content .col-link{
     padding: 20px 0;
@@ -322,7 +327,6 @@ header .nav-menu ul img{
 .eight-row:hover span{
     display: block;
 }
-
 /* FOOTER */
 footer .footer-list-card{
     width: 20%;
