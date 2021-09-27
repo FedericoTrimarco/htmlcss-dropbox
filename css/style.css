@@ -24,6 +24,9 @@
 .pd-bottom45{
     padding-bottom: 45px;
 }
+.pd-top45{
+    padding-top: 45px;
+}
 .pd-bottom70{
     padding-bottom: 70px;
 }
@@ -226,25 +229,59 @@ header .nav-menu ul img{
 }
 /* 6°SECTION */
 .sixth-sec-col-small{
-    border: 1px solid green;
     width: 25%;
 }
 .sixth-sec-col-center{
-    border: 1px solid blue;
     width: 50%;
     height: 500px;
     padding: 40px;
 }
+.sixth-sec-col-center img{
+width: 15%;
+}
+.sixth-sec-col-center hr{
+    width: 10%;
+    }
 .six-col-small-row{
     width: 50%;
     height: 500px;
-    border: 2px solid red;
 }
 .six-small-row-img{
     width: 100%;
     height: 50%;
-    border: 1px solid black;
+    position: relative;
 }
-
-
+.six-small-row-img img{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%)
+}
+.bg-img1{
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+}
+.bg-img2{
+    background-color: #61082b;
+}
+.bg-img3{
+    background-color: #0093ce;
+}
+.bg-img4{
+    background-color: #ff1c1c;
+}
+.bg-img5{
+    background-color: #d5001f;
+}
+.bg-img6{
+    background-color: #0d2481;
+}
+.bg-img7{
+    background-color: #b4d0e7;
+}
+.bg-img8{
+    background-color: #ffd830;
+}
 
