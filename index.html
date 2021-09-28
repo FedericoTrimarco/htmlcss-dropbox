@@ -15,19 +15,31 @@
               <!-- HEADER -->
     <header class="clearfix">
         <nav class="nav-menu">
-            <div class="list-container">
+            <div class="list-container float-l">
                 <ul>
                     <li>
                         <img src="./img/logo-small.png" alt="logo-small">
                     </li>
                     <li>
                         Perche' Dropbox?
+                        <div class="dropdown-menu bord-grey">
+                            <p>Centro assisstenza</p>
+                            <p>Forum della community</p>
+                        </div>
                     </li>
                     <li>
                         funzioni
+                        <div class="dropdown-menu bord-grey">
+                            <p>Centro assisstenza</p>
+                            <p>Forum della community</p>
+                        </div>
                     </li>
                     <li>
                         Piani e prezzi
+                        <div class="dropdown-menu bord-grey">
+                            <p>Centro assisstenza</p>
+                            <p>Forum della community</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -35,12 +47,24 @@
                 <ul class="float-r">
                     <li>
                         Supporto
+                        <div class="dropdown-menu bord-grey">
+                            <p>Centro assisstenza</p>
+                            <p>Forum della community</p>
+                        </div>
                     </li>
                     <li>
                         Contatta l'ufficio vendite
+                        <div class="dropdown-menu bord-grey">
+                            <p>Centro assisstenza</p>
+                            <p>Forum della community</p>
+                        </div>
                     </li>
                     <li>
                         Accedi
+                        <div class="dropdown-menu bord-grey">
+                            <p>Centro assisstenza</p>
+                            <p>Forum della community</p>
+                        </div>
                     </li>
                     <li>
                         <button class="btn btn-blue">inizia</button>
@@ -55,7 +79,7 @@
             <h1 class="pd-bottom70"> Tutto cio' che ti serve per il lavoro, in un unico posto</h1>
             <div class="section-bottom clearfix">
                 <div class="text-section">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus in hic ipsam dicta nulla aspernatur nam facilis dolorem dolore. Saepe distinctio natus illum eveniet, fuga nam aliquid commodi veritatis voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt maxime expedita id sint quidem nisi doloribus ratione distinctio sequi dolorum eius animi in, maiores accusantium optio quis soluta architecto repudiandae?</p>
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente</p>
                     <div class="button-section-one">
                         <button class="btn btn-blue">inizia la tua prova gratuita</button>
                         <p>annulla in qualsiasi momento</p>
@@ -74,12 +98,14 @@
     <section id="second-section">
         <div class="contained40 pd-top200">
            <h2 class="pd-bottom70 fnt-size45">Trova il piano Dropbox Business che fa per te</h2>
-           <input type="radio" name="fatturazione"> Fatturazione mensile
-           <input type="radio" name="fatturazione" class="mg-left20"> Fatturazione annuale
+           <input type="radio" name="fatturazione" id="month">
+           <label for="month">Fatturazione mensile</label>
+           <input type="radio" name="fatturazione" id="year" class="mg-left20">
+           <label for="year">Fatturazione annuale</label>
            <div class="columns clearfix">
                 <!-- LEFT-COL -->
                 <div class="col">
-                    <div class="bord-blk">
+                    <div class="bord-grey">
                         <p class="icon-cent"><i class="far fa-user"></i> User</p>
                         <div class="col-content">
                             <h2 class="pd-bottom20">Professionnal </h2>
@@ -108,7 +134,7 @@
                 </div>
                 <!-- CENTRAL-COL -->
                 <div class="col">
-                    <div class="bord-blk">
+                    <div class="bord-grey">
                         <p class="icon-cent"><i class="far fa-user"></i> User</p>
                         <div class="col-content">
                             <h2 class="pd-bottom20">Professionnal </h2>
@@ -138,7 +164,7 @@
                 </div>
                 <!-- RIGHT-COL -->
                 <div class="col">
-                    <div class="bord-blk">
+                    <div class="bord-grey">
                         <p class="icon-cent"><i class="far fa-user"></i> User</p>
                         <div class="col-content">
                             <h2 class="pd-bottom20">Professionnal </h2>
@@ -168,7 +194,7 @@
                 </div>
            </div>
                 <!-- FOOTER-COL -->
-           <div class="footer-columns bord-blk clearfix">
+           <div class="footer-columns bord-grey clearfix">
                 <p class="icon-cent"><i class="far fa-building"></i> Team</p>
                 <div class="footer-columns-bottom">
 
@@ -188,7 +214,7 @@
     <section class="third-section">
         <div class="contained40 pd-top120 clearfix">
             <div class="third-sec-col">
-                <img src="./img/partner.png" alt="">
+                <img src="./img/partner.png" alt="Partner-pic">
             </div>
             <div class="third-sec-col">
                 <h2 class="pd-bottom20">Entra in contatto con un partner Dropbox</h2>
@@ -204,7 +230,7 @@
             <div class="fourth-sec-row pd-bottom70 clearfix">
                 <div class="fourth-sec-col">
                     <div class="fourth-sec-col-img">
-                        <img src="./img/business-feature-switching-tools.png" alt="feature-switch">
+                        <img src="./img/business-feature-switching-tools.png" alt="switching-pic">
                     </div>
                     <div class="fourth-sec-col-txt">
                          <h2 class="pd-bottom20">Passa di meno da uno strumento all'altro</h2>
@@ -213,7 +239,7 @@
                 </div>
                 <div class="fourth-sec-col">
                     <div class="fourth-sec-col-img">
-                        <img src="./img/business-feature-coordinate-it.png" alt="">
+                        <img src="./img/business-feature-coordinate-it.png" alt="coordinate-pic">
                     </div>
                     <div class="fourth-sec-col-txt">
                         <h2 class="pd-bottom20">Passa di meno da uno strumento all'altro</h2>
@@ -222,7 +248,7 @@
                 </div>
                 <div class="fourth-sec-col">
                     <div class="fourth-sec-col-img">
-                        <img src="./img/business-feature-multi-device.png" alt="">
+                        <img src="./img/business-feature-multi-device.png" alt="multi-device-pic">
                     </div>
                     <div class="fourth-sec-col-txt">
                         <h2 class="pd-bottom20">Passa di meno da uno strumento all'altro</h2>
@@ -233,7 +259,7 @@
             <div class="fourth-sec-row clearfix">
                 <div class="fourth-sec-col">
                     <div class="fourth-sec-col-img">
-                        <img src="./img/business-feature-integrations-it.png" alt="feature-switch">
+                        <img src="./img/business-feature-integrations-it.png" alt="integrations-pic">
                     </div>
                     <div class="fourth-sec-col-txt">
                          <h2 class="pd-bottom20">Passa di meno da uno strumento all'altro</h2>
@@ -242,7 +268,7 @@
                 </div>
                 <div class="fourth-sec-col">
                     <div class="fourth-sec-col-img">
-                        <img src="./img/business-feature-send-files-it.png" alt="">
+                        <img src="./img/business-feature-send-files-it.png" alt="send-files-pic">
                     </div>
                     <div class="fourth-sec-col-txt">
                         <h2 class="pd-bottom20">Passa di meno da uno strumento all'altro</h2>
@@ -251,7 +277,7 @@
                 </div>
                 <div class="fourth-sec-col">
                     <div class="fourth-sec-col-img">
-                        <img src="./img/business-feature-security.png" alt="">
+                        <img src="./img/business-feature-security.png" alt="security-pic">
                     </div>
                     <div class="fourth-sec-col-txt">
                         <h2 class="pd-bottom20">Passa di meno da uno strumento all'altro</h2>
@@ -279,26 +305,26 @@
 
             <div class="six-col-small-row float-l">
                 <div class="six-small-row-img bg-img1">
-                    <img src="./img/designit.svg" alt="">
+                    <img src="./img/designit.svg" alt="designit-pic">
                 </div>
                 <div class="six-small-row-img bg-img3">
-                    <img src="./img/university_of_florida.svg" alt="">
+                    <img src="./img/university_of_florida.svg" alt="university_of_florida-pic">
                 </div>
             </div>
 
             <div class="six-col-small-row float-l">
                 <div class="six-small-row-img bg-img2">
-                    <img src="./img/arizona_state_university.svg" alt="">
+                    <img src="./img/arizona_state_university.svg" alt="arizona_state_university-pic">
                 </div>
                 <div class="six-small-row-img bg-img4">
-                    <img src="./img/topps.svg" alt="">
+                    <img src="./img/topps.svg" alt="topps-pic">
                 </div>
             </div>
         
         </div>
                <!-- COL-CENTER -->
         <div class="sixth-sec-col-center float-l">
-           <img class="pd-bottom45" src="./img/designit.svg" alt="">
+           <img class="pd-bottom45" src="./img/designit.svg" alt="designit-pic">
            <hr>
            <p class="pd-top45">"I membri del nostro team lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna e' facile come Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna e' facile come Dropbox Paper. I membri del nostro team lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna e' facile come Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna e' facile come Dropbox Paper. I membri del nostro team lavorano constantemente in Paesi, fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna e' facile come Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna e' facile come Dropbox Paper."</p>
            <p class="pd-top45">Morten Thomsen, Global IT Lead</p>
@@ -308,19 +334,19 @@
 
             <div class="six-col-small-row float-l">
                 <div class="six-small-row-img bg-img4">
-                    <img src="./img/world_bicycle_relief.svg" alt="">
+                    <img src="./img/world_bicycle_relief.svg" alt="world_bicycle_relief-pic">
                 </div>
                 <div class="six-small-row-img bg-img6">
-                    <img src="./img/lonely_planet.svg" alt="">
+                    <img src="./img/lonely_planet.svg" alt="lonely_planet-pic">
                 </div>
             </div>
 
             <div class="six-col-small-row float-l">
                 <div class="six-small-row-img bg-img7">
-                    <img src="./img/hearst_corp.svg" alt="">
+                    <img src="./img/hearst_corp.svg" alt="hearst_corp-pic">
                 </div>
                 <div class="six-small-row-img bg-img8">
-                    <img src="./img/clear_channel.svg" alt="">
+                    <img src="./img/clear_channel.svg" alt="clear_channel-pic">
                 </div>
             </div>
         
@@ -393,7 +419,7 @@
                     </ul>
                 </div>
                 <div class="footer-list-card">
-                    <h2 class="pd-bottom20">Dropbox</h2>
+                    <h2 class="pd-bottom20">Prodotti</h2>
                     <ul>
                         <li>Applicazioni desktop</li>
                         <li>Perchè Dropbox</li>
@@ -403,7 +429,7 @@
                     </ul>
                 </div>
                 <div class="footer-list-card">
-                    <h2 class="pd-bottom20">Dropbox</h2>
+                    <h2 class="pd-bottom20">Azienda</h2>
                     <ul>
                         <li>Applicazioni desktop</li>
                         <li>Perchè Dropbox</li>
@@ -413,7 +439,7 @@
                     </ul>
                 </div>
                 <div class="footer-list-card">
-                    <h2 class="pd-bottom20">Dropbox</h2>
+                    <h2 class="pd-bottom20">Supporto</h2>
                     <ul>
                         <li>Applicazioni desktop</li>
                         <li>Perchè Dropbox</li>
@@ -423,13 +449,11 @@
                     </ul>
                 </div>
                 <div class="footer-list-card">
-                    <h2 class="pd-bottom20">Dropbox</h2>
+                    <h2 class="pd-bottom20">Community</h2>
                     <ul>
                         <li>Applicazioni desktop</li>
                         <li>Perchè Dropbox</li>
                         <li>Piani</li>
-                        <li>Sicurezza</li>
-                        <li>Funzioni</li>
                     </ul>
                 </div>
             </div>

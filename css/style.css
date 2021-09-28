@@ -8,9 +8,12 @@
 html{
     scroll-behavior: smooth;
 }
+a{
+    color: #0d69ff;
+}
 /* UTILITIES */
 /* BORDER */
-.bord-blk{
+.bord-grey{
     border: 1px solid #d9d9db;
 }
 /* ICON */
@@ -123,21 +126,47 @@ button{
 /*  */
 
 /* HEADER */
+header .list-container.float-l li:first-child,
+header .list-container.float-r li:last-child{
+    border: none;
+}
 header{
     position: fixed;
     width: 100%;
     z-index: 1;
     background-color: #fff;
+    border-bottom: 1px solid #d9d9db;
+}
+header .nav-menu li{
+    position: relative;
+    display: inline-block;
+    border-bottom: 3px solid transparent;
+    line-height: 60px;
+    padding: 0 30px;
+    cursor: pointer;
+}
+header li:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu{
+    position: absolute;
+    left: 1px;
+    top: 65px;
+    padding: 15px;
+    width: 250px;
+    background-color: white;
+    display: none;
+}
+.dropdown-menu p:hover{
+    text-decoration: underline;
 }
 .list-container{
     width: 50%;
-    display: inline-block;
 }
-header .nav-menu li{
-    display: inline-block;
-    padding: 20px;
+.nav-menu li:hover{
+    border-bottom-color: currentColor;
 }
-header .nav-menu ul img{
+.nav-menu ul li img{
    vertical-align: sub;
 }
 /* 1°SECTION */
