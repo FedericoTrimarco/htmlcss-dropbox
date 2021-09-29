@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css' integrity='sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==' crossorigin='anonymous'/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/radio-style.css">
     <title>DROPBOX</title>
 </head>
 <body>
@@ -98,10 +99,14 @@
     <section id="second-section">
         <div class="contained40 pd-top200">
            <h2 class="pd-bottom70 fnt-size45">Trova il piano Dropbox Business che fa per te</h2>
-           <input type="radio" name="fatturazione" id="month">
-           <label for="month">Fatturazione mensile</label>
-           <input type="radio" name="fatturazione" id="year" class="mg-left20">
-           <label for="year">Fatturazione annuale</label>
+           <label class="radio">Fatturazione mensile
+            <input type="radio" checked="checked" name="radio">
+            <span class="checkmark"></span>
+          </label>
+          <label class="radio">Fatturazione annuale
+            <input type="radio" name="radio">
+            <span class="checkmark"></span>
+          </label>
            <div class="columns clearfix">
                 <!-- LEFT-COL -->
                 <div class="col">
