@@ -197,10 +197,19 @@ header li:hover .dropdown-menu{
 .button-section-one p{
     line-height: 50px;
 }
-.section-bottom a{
+.first-section a i{
     font-size: 50px;
     color: #000;
     cursor: pointer;
+    animation: bouncing .8s linear infinite alternate;
+}
+@keyframes bouncing {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(20px);
+    }
 }
 /* SECOND-SECTION */
 #second-section .col ul{
